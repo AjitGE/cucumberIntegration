@@ -21,6 +21,8 @@ import org.testng.annotations.BeforeClass;
         glue = {"StepsDef"},
         tags = "@Run_first_test",
         plugin = {"pretty",
+                "json: target/cucumber-reports",
+                "html: target/cucumber-reports/cucumber.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 },
         monochrome = true,
