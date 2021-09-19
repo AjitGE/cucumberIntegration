@@ -36,7 +36,9 @@
   <profile>
   
    <id>Smoke</id>
-  
+      <activation>
+          <activeByDefault>true</activeByDefault>
+      </activation>
   <build>
     <pluginManagement>
       <plugins>

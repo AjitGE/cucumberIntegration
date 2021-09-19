@@ -3,4 +3,7 @@ target
 .classpath
 .project
 .settings
+Reports
+.DS_Store
+
 
